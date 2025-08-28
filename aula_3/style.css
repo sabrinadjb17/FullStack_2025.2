@@ -1,0 +1,76 @@
+p{
+    border-radius: 20px;
+    box-shadow: 5px 5px grey;
+    display: inline;
+}
+
+.solid{
+    border-style: solid;
+}
+
+.dotted{
+    border-style: dotted;
+}
+
+.dashed{
+    border-style: dashed;
+}
+
+.double{
+    border-style: double;
+}
+
+#d1{
+    background-color: aquamarine;
+    width: 300px;
+    height: 50px;
+    border: dotted 5px blue;
+    padding: 10px;
+}
+
+#d2{
+    display: inline; /*deixa a divisão apenas em volta da palavra*/
+}
+
+#s1{
+    display: block; /*deixa a divisão na tela inteira*/
+}
+
+.azul{
+    background-color: blue;
+}
+
+.verde{
+    background-color: green;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.inline{
+    display: inline;
+}
+
+.padd_10{
+    padding: 10px;
+}
+
+#d3{
+    position: relative; /*espaçamento relativo a partir da último elemento*/
+    top: 40px; 
+    left: 40px;
+}
+
+#d4{
+    position: absolute; /*espaçamento em relação a página inteira*/
+    top: 40px; 
+    left: 40px;
+    z-index: -1; /*ontrola a profundidade do elemento, neste exemplo ele vai para trás*/
+}
+
+#d5{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
