@@ -1,0 +1,13 @@
+#container{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.item{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+}
