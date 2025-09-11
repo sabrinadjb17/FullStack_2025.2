@@ -1,0 +1,99 @@
+a{
+    text-decoration: none;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: gray;
+}
+
+#assine_vermelho{
+    background-color: red;
+    color: white;
+}
+
+.cabecalho_2{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.correio_cabecalho{
+    width: 300px;
+}
+
+.redes_sociais{
+    display: flex;
+    justify-content: space-around;
+}
+
+.data_email{
+    display: flex;
+    justify-content: space-between;
+}
+
+#data{
+    padding-right: 80px;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+.primeira_parte{
+    display: flex;
+    justify-content: space-between;
+}
+
+#carro{
+    width: 430px;
+}
+
+.carro_branco{
+    flex-direction: column;
+    padding-right: 30px;
+    color: white;
+}
+
+.texto_carro{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+
+.mulheres{
+    display: flex;
+    flex-direction: row;
+}
+
+.mulher_morena{
+    padding-right: 15px;
+}
+
+.img_mulheres{
+    width: 225px;
+}
+
+.inframe_cinza{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+}
+
+iframe{
+    padding-left: 200px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    color: gray;
+}
+
+#correio_rodape{
+    width: 90px;
+}
+
