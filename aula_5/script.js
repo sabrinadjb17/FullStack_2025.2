@@ -27,6 +27,7 @@ while(i < 10){
 
 //exercicio 01
 i = 1
+
 while(i < 100){
     console.log(i)
     i += 2
