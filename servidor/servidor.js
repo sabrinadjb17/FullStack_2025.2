@@ -40,7 +40,7 @@ console.log("Servidor rodando ...".rainbow); //rainbow deixa colorido no termina
 
 // função precisa de dois parametros requisição e reposta (que devolve ao cliente)
 app.get('/', function(requisicao, resposta){ //qundo ele buscar o metodo get / (vai automaticamnete pro index.htmlvai dar um resposta ao usuário
- resposta.redirect('aula10.html'); //redireciona a pagina
+ resposta.redirect('index.html'); //redireciona a pagina
 }) 
 // http://localhost/aula10.html -- roda no nagevador 
 // rendirect - redireciona, render(sempre busca na pasta viwes) - renderiza o arquivo e envia para o cliente (usado para ejs)
