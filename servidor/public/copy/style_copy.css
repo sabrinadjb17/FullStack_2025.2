@@ -1,0 +1,152 @@
+.cabecalho{
+    border: solid 3px blue;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between
+}
+
+#img_C{
+    width: 100px;
+}
+
+#img_java{
+    width: 100px;
+}
+
+#titulo{
+    color: darkgreen;
+    justify-content: center;
+}
+
+header{
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 10px;
+}
+
+a{
+    color:darkred;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+#img_livro{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+body{
+    background-color: lightgray;
+}
+
+h2{
+    text-align: center;
+}
+
+.texto_body{
+    color: indigo;
+    text-align: center;
+}
+
+.img_livros{
+    width: 180px;
+    height: 260px;
+    padding-left: 165px;
+}
+
+
+.diviframe{
+    display: flex;
+    justify-content: center;
+}
+
+iframe{
+    width: 280px;
+    height: 230px;
+}
+
+#iframe_yt{
+    padding-right: 100px;
+}
+
+.tabela_contatos{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+table{
+    border: dashed 5px red;
+}
+
+td{
+    border: solid 1.5px darkred;
+    text-align: center;
+    padding: 8px;
+}
+
+.titulo_tabela{
+    color: red;
+    font-weight: bold;
+}
+
+.sites_consulta_pai{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.sites_consulta{
+    background-color: yellow;
+    width: 600px;
+    height: 150px;
+    margin: 0px;
+}
+
+span{
+    color: darkred;
+    font-weight: bolder;
+}
+
+.sites{
+    text-align: center;
+    position: absolute;
+    padding-left: 180px;
+    padding-bottom: 100px;
+}
+
+footer{
+    background-color: bisque;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 0px;
+    justify-content: center;
+}
+
+.img_rodape{
+    width: 100px;
+    height: 100px;
+}
+
+#img_css{
+    width: 80px;
+    position: absolute;
+    right: 15px;
+    padding-top: 15px;
+}
+
+#img_html{
+    position: absolute;
+    left: 0px;
+    padding-top: 15px;
+}
+
+.p_footer{
+    display: flex;
+    flex-direction: column;
+}

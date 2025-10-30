@@ -1,0 +1,68 @@
+body{
+    background-color: rosybrown;
+    margin: 2em;
+    padding: 2em;
+    border-style: double;
+}
+
+h1{
+    font-family: "Aguafina Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    border-style: double;
+    padding: 3px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.div_pai{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    padding: 6em 6em;
+}
+
+#texto{
+    margin-right: 10em;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.foto_sabrina{
+    width: 300px;
+    margin-right: 6em;
+}
+
+#feedback{
+    width: 80%;
+    height: 20em;
+}
+
+td{
+    border-style: double;
+    margin: 2px;
+    border-color: black;
+}
+
+a:hover{
+    color: aliceblue;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.texto_tabela{
+    color: lightgrey;
+}
+
